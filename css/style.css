@@ -1,0 +1,443 @@
+/*color: #843E4D
+		#3E8449
+		font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+a, p {
+	font-size: 0.75rem;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.6;
+	text-decoration: none;
+
+}
+h1 {
+	font-size: 1.2rem;
+	font-family: 'Roboto', sans-serif;
+	margin: 20px;
+}
+.intro img {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.intro {
+	position: relative;
+}
+.hambuger-bar {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+	cursor: pointer;
+}
+.mob-nav {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	opacity: 0;
+	transition: 0.4s ease-out;
+	z-index: 1;
+	
+}
+.line-mob {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 700px;
+	height: 5px;
+	background-color: white;
+	display: none;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+
+}
+.active {
+	opacity: 0;
+}
+.select-product a {
+	padding: 5px 10px;
+
+}
+.mob-nav ul li {
+	list-style: none;
+	width: 65px;
+	float: left;
+}
+.mob-nav a{
+	color: white;
+}
+
+.mob-nav i {
+	color: white;	
+}
+.mob-nav a:hover {
+	text-decoration: underline;
+}
+
+.select-product {
+	position: relative;
+	clear: both;
+}
+
+.select-product {
+	position: absolute;
+	top: 50px;
+	left: 190px;
+	opacity: 0;
+	transition: 0.4s ease-out;
+	z-index: 0;
+}
+.active-1 {
+	opacity: 1;
+}
+
+.select-product li {
+	list-style: none;
+	width: 50px;
+	float: left;
+}
+
+.select-product a {
+	color: white;
+}
+
+.bar-1, .bar-2, .bar-3 {
+	width: 40px;
+	height: 1px;
+	background-color: white;
+	display: block;
+	transition: 0.4s ease-out;
+}
+
+.bar-2, .bar-3 {
+	margin-top: 8px;
+}
+.fade {
+	opacity: 0;
+}
+.transition-top {
+	transform: rotate(45deg) translate(1px, 11px);
+}
+.transition-bottom {
+	transform: rotate(-45deg) translate(1px, -11px);
+}
+
+
+
+.logo {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	transition: 0.4s ease-out;
+}
+.logo img {
+	width: 40px;
+	height: auto;
+}
+.call-to-action {
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	margin-left: -50px;
+	
+
+}
+.call-to-action a {
+ 	color: white;
+ 	font-size: 1rem;
+ 	padding: 10px 20px;
+ 	background-color: #3E8449;
+ 	border: 1px solid white;
+}
+
+.products {
+	text-align: center;
+	background-color: ;
+}
+.products h1 {
+	color: #3E8449;
+}
+
+.info-box {
+	background-color: #843E4D;
+	width: 200px;
+	padding: 2px 0;
+	color: white;
+	margin: 10px auto 30px auto;
+}
+.products {
+	background-color: white;
+	color: #3E8449;
+	padding-top: 10px;
+}
+.products h1 {
+	text-align: center;
+	color: #3E8449;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+.product-info {
+	border-top: 1px solid #3E8449;
+	border-bottom: 1px solid #3E8449;
+	width: 150px;
+	text-align: left;
+	margin: 5px auto 20px auto;
+}
+.products img {
+	width: 300px;
+	height: auto;
+	margin-top: 20px;
+	border: 1px solid white;
+}
+.products img:nth-child(2) {
+	margin-top: 0px;
+}
+
+.feedback {
+	background-color: #3E8449;
+	color: white;
+	padding: 30px 0;
+	margin-top: -5px;
+
+}
+
+.feedback-wrapper {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+.feedaback-icon-col-1, .feedaback-icon-col-2, .feedaback-icon-col-3 {
+
+	width: 33.333%;
+	float: left;
+}
+
+.feedaback-icon {
+	display: flex;
+	
+}
+.feedaback-icon i {
+	font-size: 2rem;
+	margin: 20px;
+}
+.feedback {
+	text-align: center;
+	padding-bottom: 40px;
+	
+}
+.see-more {
+	margin: 40px 0 0 0;
+	position: relative;
+}
+.feedback a {
+	color: #3E8449;
+	padding: 10px 20px;
+	background-color: white;
+	font-size: 1rem;
+
+}
+
+.see-more-linetop,.see-more-linebottom {
+	width: 120px;
+	height: 1px;
+	background-color: white;
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+}
+
+.see-more-linetop {
+	top: -20px;
+}
+
+.see-more-linebottom {
+	bottom: -20px;
+}
+
+.promotion-content {
+	text-align: center;
+	color: white;
+}
+.promotion-content p {
+	padding-bottom: 20px;
+}
+.promotion-content h1 {
+	margin-bottom: 0px;
+	font-family: 'Great Vibes', cursive;
+}
+.promotion-content a {
+	color: white;
+	padding: 10px 20px;
+	background-color: #843E4D;
+	font-size: 1rem;
+}
+.promotion {
+	margin-top: -2px;
+	padding: 30px 0 60px 180px;
+	background-image: url('../img/fashion.jpg');
+	background-size: cover;
+}
+footer {
+	text-align: center;
+	padding: 10px 0;
+	background-color: #3E8449;
+}
+footer i {
+	font-size: 2rem;
+	
+}
+.social-icon {
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+
+
+}
+
+.promotion a {
+	border: 1px solid white;
+
+}
+
+.product-content figure ul li{
+	list-style: none;
+}
+
+
+
+@media only screen and (min-width: 36rem) {
+	.product-content figure {
+		display: inline-block;
+	}
+	.select-product a:hover {
+		background-color: #843E4D;
+		text-decoration: none;
+
+	}
+	.mob-nav a {
+		font-size: 1rem;
+	}
+
+	.mob-nav ul li {
+		width: 100px;
+	}
+	.call-to-action {
+		bottom: 50px;
+	}
+	.select-product {
+		top: 70px;
+		left: 250px;
+	}
+	.select-product a {
+	/*	font-size: 1rem;*/
+	}
+	.select-product a{
+		font-size: 1rem;
+	}
+	.select-product li {
+		width: 100px;
+
+	}
+	.promotion-content h1 {
+		font-size: 2rem;
+	}
+	.promotion-content p {
+	padding-bottom: 40px;
+	font-size: 1.5rem;
+	}
+
+	.promotion-content a {
+	padding: 10px 20px;
+	background-color: #843E4D;
+	font-size: 1.25rem;
+	}
+	.promotion {
+	margin-top: -4px;
+	padding: 60px 0 120px 360px;
+
+	}
+
+
+
+
+}
+
+
+@media only screen and (min-width: 68rem) {
+	.product-content figure img {
+		width: 300px;
+		height: auto;
+	}
+
+	.line-mob {
+		display: block;
+	}
+
+	.mob-nav ul li a {
+		padding: 5px 10px;
+	}
+	.mob-nav ul li a:hover {
+		background-color: #843E4D;
+		text-decoration: none;
+	}
+	a, p {
+		font-size: 1rem;
+	}
+
+	h1 {
+		font-size: 1.5rem;
+	}
+	#red {
+		color: white;
+		background-color: #843E4D;
+		padding: 5px 10px;
+	}
+
+	.see-more a {
+		font-size: 1.25rem;
+	}
+	.select-product {
+		top: 60px;
+		left: 440px;
+	}
+	.hambuger-bar {
+		display: none;
+	}
+	.logo img {
+		width: 100px;
+		height: auto;
+	}
+	.mob-nav {
+		opacity: 1;
+		left: 0;
+		
+	}
+	.mob-nav ul li {
+		width: 160px;
+	}
+
+	.call-to-action a {
+		font-size: 3rem;
+	}
+	.call-to-action {
+		bottom: 100px;
+		left: 50%;
+		margin-left: -120px;
+	}
+	.promotion {
+	margin-top: -4px;
+	padding: 200px 0 240px 420px;
+
+	}
+	.promotion p, .promotion a {
+		font-size: 2rem;
+	}	
+	.promotion h1 {
+		font-size: 3.5rem;
+	}
+
+}
+
